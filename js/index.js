@@ -8,5 +8,5 @@ function fun2(){
 
 }
 function fun3(){
-
+    console.log(3)
 }

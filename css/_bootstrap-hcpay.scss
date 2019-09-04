@@ -1,0 +1,57 @@
+
+@mixin hcpay-margin($hcpay-margin){
+  margin:$hcpay-margin;
+}
+@mixin hcpay-margin-top($hcpay-margin-top){
+  margin-top:$hcpay-margin-top;
+}
+@mixin hcpay-margin-left($hcpay-margin-left){
+  margin-left:$hcpay-margin-left;
+}
+@mixin hcpay-margin-bottom($hcpay-margin-bottom){
+  margin-bottom:$hcpay-margin-bottom;
+}
+@mixin hcpay-margin-right($hcpay-margin-right){
+  margin-right:$hcpay-margin-right;
+}
+@mixin hcpay-padding($hcpay-padding){
+  padding:$hcpay-padding;
+}
+@mixin hcpay-padding-top($hcpay-padding-top){
+  padding-top:$hcpay-padding-top;
+}
+@mixin hcpay-padding-left($hcpay-padding-left){
+  padding-left:$hcpay-padding-left;
+}
+@mixin hcpay-padding-bottom($hcpay-padding-bottom){
+  padding-bottom:$hcpay-padding-bottom;
+}
+@mixin hcpay-padding-right($hcpay-padding-right){
+  padding-right:$hcpay-padding-right;
+}
+//border-radius
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+@mixin border-top-radius($radius) {
+  border-top-right-radius: $radius;
+  border-top-left-radius: $radius;
+}
+@mixin border-right-radius($radius) {
+  border-bottom-right-radius: $radius;
+  border-top-right-radius: $radius;
+}
+@mixin border-bottom-radius($radius) {
+  border-bottom-right-radius: $radius;
+  border-bottom-left-radius: $radius;
+}
+@mixin border-left-radius($radius) {
+  border-bottom-left-radius: $radius;
+  border-top-left-radius: $radius;
+}
+
+
+
+
+
+

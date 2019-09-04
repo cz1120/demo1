@@ -1,0 +1,32 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+div {
+  color: #333;
+}
+
+.test1 {
+  content: Hello Sass!;
+}
+
+.test2 {
+  content: 'Hello Sass!;
+}
+
+.test3 {
+  content: I'm Web Designer;
+}
+
+.test4 {
+  content: 'Hello Sass!';
+}
+
+.test5 {
+  content: "Hello Sass!";
+}
+
+.test6 {
+  content: Hello Sass;
+}

@@ -1,0 +1,32 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+
+}
+div {
+    color: $primary-color;
+    
+  }
+
+//SCSS
+.test1 {
+  content:  unquote('Hello Sass!') ;
+}
+.test2 {
+  content: unquote("'Hello Sass!");
+}
+.test3 {
+  content: unquote("I'm Web Designer");
+}
+.test4 {
+  content: unquote("'Hello Sass!'");
+}
+.test5 {
+  content: unquote('"Hello Sass!"');
+}
+.test6 {
+  content: unquote(Hello Sass);
+}

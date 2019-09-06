@@ -1,8 +1,49 @@
+<!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <meta charset="UTF-8">
+        <title>js生成100个div</title>
+        
+        <style>
+            /* .box div {
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                border-radius: 4px;
+                background: #1abc9c;
+                position: absolute;
+                left: 0;
+                top: 0;
+                font-size: 16px;
+                color: white;
+                font-weight: bold;
+                text-align: center;
+            } */
+        </style>
+    </head>
     <body>
-        <div><img src="" alt=""></div>
-        <div><img src="" alt=""></div>
-        <div><img src="" alt=""></div>
+        <div class="box">12</div>
     </body>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var box=document.getElementsByClassName("box");
+            var str = "";
+            for (var i = 1; i <= 12; i++) {
+                var div = document.createElement("div");
+                box.appendChild(div);
+                //var node = document.createTextNode(i);
+                div.id="div"+i;
+                // div.appendChild(node);
+                // str += "<div>" + i + "</div>";
+            }
+            // $(".box").html(str);
+            //上面为生面100个div标签
+            // var div = $(".box").find("div");
+            // for (var i = 1; i <= div.length; i++) {
+            //     div[i].style.left = (i % 10) * 60 + "px";
+            //     div[i].style.top = Math.floor(i / 10) * 60 + "px";
+            // }
+        });
+    </script>
 </html>
